@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iframes</title>
+    <link
+      rel="stylesheet"
+      href="https://code.s3.yandex.net/web-code/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__title-container">
+            <h1 class="header__title">
+              El Transiberiano: el viaje en tren más largo del mundo
+            </h1>
+            <p class="header__description">
+              Vladivostok, Khabarovsk, Izhevsk, Moscú - 18 días de ruta en
+              total. Así es como el músico David Bowie viajó a Europa tras su
+              gira por Japón en la primavera de 1973. Bowie tenía miedo a volar,
+              así que cogió el tren.
+            </p>
+          </div>
+          <div class="header__counter-container">
+            <div class="header__counter header__counter_type_km">
+              <span class="header__counter-value" id="counter-km">0</span>
+              km.
+            </div>
+            <div class="header__counter header__counter_type_days">
+              <span class="header__counter-value" id="counter-days">0</span>
+              días.
+            </div>
+            <div class="header__audio-container"></div>
+          </div>
+        </div>
+      </header>
+      <section class="cities">
+        <div class="cities__container">
+          <div class="cities__city" id="city-kostroma">
+            <div
+              class="cities__video-container cities__video-container_name_kostroma"
+            ></div>
+            <p class="cities__text">
+              Primero, se ven los paisajes típicos de la parte europea de Rusia:
+              campos, casas de campo, aldeas, bosques y líneas eléctricas. Como
+              si estuvieras viajando por la comarca de los hobbits, o al pasado,
+              a 1973; como si en cualquier momento David Bowie pudiera venir del
+              compartimento de al lado, vestido con un kimono japonés y unos
+              pantalones brillantes.
+            </p>
+          </div>
+          <div class="cities__city" id="city-yekaterinburg">
+            <div
+              class="cities__video-container cities__video-container_name_yekaterinburg"
+            ></div>
+            <p class="cities__text">
+              Es hora de volver a nuestros tiempos. En Kostroma, te bajas del
+              tren y compras todas las cosas que olvidaste llevar contigo: café
+              soluble, fideos instantáneos, y un pack de seis cervezas. Ahora
+              ponte cómodo. Todavía no estamos ni a mitad de camino.
+            </p>
+          </div>
+          <div class="cities__city" id="city-omsk">
+            <div
+              class="cities__video-container cities__video-container_name_omsk"
+            ></div>
+            <p class="cities__text">
+              Tu viaje ha ido más allá del ámbito físico y se ha adentrado en el
+              ámbito espiritual. Esta experiencia mágica de inmersión en las
+              profundidades del alma rusa se quedará contigo para siempre.
+              Europa está muy atrás, y Asia está muy lejos aún. Puede que
+              incluso hayas estado parado todo este tiempo. Has perdido la
+              cuenta de los kilómetros que has recorrido y ahora ni siquiera
+              estás seguro de que el tren se esté moviendo. Por otro lado, si
+              miras por la ventana durante mucho tiempo (para ser sinceros, no
+              hay mucho más que hacer), casi puedes ver a los antiguos mamuts
+              que deambulaban por estas llanuras hace miles de años.
+            </p>
+          </div>
+          <div class="cities__city" id="city-yablonoi-pereval">
+            <div
+              class="cities__video-container cities__video-container_name_yablonoi-pereval"
+            ></div>
+            <p class="cities__text">
+              Ahora estás en el corazón del continente, y no hay rastro de
+              civilizaciones antiguas, ni de Europa ni de Asia. Aquí, el tren
+              pasa por el punto más alto del ferrocarril transiberiano y
+              comienza el camino hacia el mar. Antes, la carretera se estrechaba
+              en un solo carril y atravesaba un pequeño túnel, cuya entrada
+              estaba adornada con un cartel que señalaba hacia el gran océano.
+            </p>
+          </div>
+          <div class="cities__city" id="city-khabarovsk">
+            <div
+              class="cities__video-container cities__video-container_name_khabarovsk"
+            ></div>
+            <p class="cities__text">
+              Empiezas a pensar que lo más probable es que pases el resto de tu
+              vida en el tren cuando Khabarovsk aparece en el horizonte. Ya
+              sabes más sobre tus compañeros de viaje que sobre los miembros de
+              tu familia. De todos modos, sólo faltan unos 800 kilómetros para
+              llegar a Vladivostok.
+            </p>
+          </div>
+          <div class="cities__city" id="city-vladivostok">
+            <div
+              class="cities__video-container cities__video-container_name_vladivostok"
+            >
+              <div class="cities__video-title">Vladivostok</div>
+            </div>
+            <p class="cities__text">
+              Este ha sido un viaje extraordinario. Cada uno tiene su propia
+              historia que contar, pero una vez hayas llevado a cabo este viaje,
+              ya no serás la misma persona que eras cuando lo empezaste.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="iframes">
+        <div class="iframes__container">
+          <div class="iframe iframe__weather">
+            <div class="iframe__title">
+              Comprueba la meteorología del trayecto ⟶
+            </div>
+            <div class="iframe__item"></div>
+          </div>
+          <div class="iframe iframe__music">
+            <div class="iframe__title">Escuchar música ⟶</div>
+            <div class="iframe__item">
+              <!--inserta aquí el iframe-->
+            </div>
+          </div>
+          <div class="iframe iframe__books">
+            <div class="iframe__title">Lee algo interesante ⟶</div>
+            <div class="iframe__item">
+              <!--inserta aquí el iframe-->
+            </div>
+          </div>
+          <div class="iframe iframe__map">
+            <div class="iframe__title">Mapa de la ruta ⟶</div>
+            <div class="iframe__item">
+              <!--inserta aquí el iframe-->
+            </div>
+          </div>
+          <div class="iframe iframe__social">
+            <div class="iframe__title">
+              Mi publicación en las redes sociales ⟶
+            </div>
+            <div class="iframe__item">
+              <!--inserta aquí el iframe-->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
